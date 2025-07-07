@@ -1,0 +1,28 @@
+.music-fab {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(135deg, #ff69b4, #ff85b3);
+	border: none;
+	border-radius: 50%;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 0.3s ease, background 0.3s ease;
+	z-index: 999;
+}
+
+.music-fab:hover {
+	transform: scale(1.1);
+	background: linear-gradient(135deg, #ff4780, #ff7fbd);
+}
+
+.music-fab:focus {
+	outline: none;
+}

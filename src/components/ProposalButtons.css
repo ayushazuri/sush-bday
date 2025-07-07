@@ -1,0 +1,85 @@
+.button-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	height: 150px;
+}
+
+.button-row {
+	display: flex;
+	gap: 60px;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+}
+
+.yesBtn,
+.noBtn {
+	padding: 16px 40px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+	letter-spacing: 0.8px;
+}
+
+.yesBtn {
+	background: linear-gradient(to right, #ff9a8b, #ff6a88);
+	color: white;
+	box-shadow: 0 0 20px rgba(255, 106, 136, 0.4);
+}
+
+.yesBtn:hover {
+	background: linear-gradient(to right, #ff6a88, #ff99ac);
+	transform: translateY(-3px);
+}
+
+.noBtn {
+	background: linear-gradient(to right, #cba6f7, #a993fe);
+	color: white;
+	position: relative;
+	box-shadow: 0 0 20px rgba(169, 147, 254, 0.4);
+}
+
+.noBtn:hover {
+	background: linear-gradient(to right, #a993fe, #cba6f7);
+	transform: translateY(-3px);
+}
+
+.love-box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	border: 3px solid #d63384;
+	padding: 2rem;
+	border-radius: 25px;
+	max-width: 500px;
+	width: 90%;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	text-align: center;
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+.close-btn {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	background: none;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #d63384;
+	cursor: pointer;
+	transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+	color: #a61c5e;
+}

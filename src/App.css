@@ -1,38 +1,108 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff0f5; /* light pink */
+	font-family: "Segoe UI", "Roboto", sans-serif;
+	overflow-x: hidden;
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 2rem;
+	font-size: 2.5rem;
+	color: #d63384;
+	letter-spacing: 1px;
+}
+/* h1 {
+	font-family: "Sacramento", cursive;
+	font-size: 3rem;
+	color: #d63384;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
+} */
+h1 {
+	font-family: "Great Vibes", cursive;
+	font-size: 3.5rem;
+	color: #d63384;
+	text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+}
+
+.footer-note {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+	font-style: italic;
+	pointer-events: none;
+}
+
+.p-toast {
+	z-index: 9999;
+}
+
+.p-toast .p-toast-message {
+	border-radius: 12px;
+	background: linear-gradient(135deg, #ffe4ec, #ffc0cb);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+	font-family: "Segoe UI", sans-serif;
+	color: #d63384;
+	padding: 1rem;
+	border-left: 5px solid #d63384;
+}
+
+.p-toast .p-toast-message .p-toast-summary {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #c2185b;
+}
+
+.p-toast .p-toast-message .p-toast-detail {
+	font-size: 1rem;
+	color: #6d214f;
+}
+
+.p-toast .p-toast-icon-close {
+	color: #c2185b;
+	font-size: 1.1rem;
 }
