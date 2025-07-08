@@ -2,15 +2,15 @@ import React from "react";
 import Slider from "react-slick";
 
 const originalImages = [
-	"/assets/images/IMG_3242.jpeg",
-	"/assets/images/IMG_3635.jpeg",
-	"/assets/images/IMG_4570.jpeg",
-	"/assets/images/IMG_4573.jpeg",
-	"/assets/images/IMG_5221.jpeg",
-	"/assets/images/IMG_8371.jpeg",
-	"/assets/images/FullSizeRender.jpeg",
-	"/assets/images/auto.jpeg",
-	"/assets/images/wed-dadar.jpeg",
+	`${process.env.PUBLIC_URL}/assets/images/IMG_3242.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/IMG_3635.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/IMG_4570.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/IMG_4573.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/IMG_5221.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/IMG_8371.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/FullSizeRender.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/auto.jpeg`,
+	`${process.env.PUBLIC_URL}/assets/images/wed-dadar.jpeg`,
 ];
 
 function PhotoCarousel() {

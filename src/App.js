@@ -32,11 +32,11 @@ function App() {
 		<div
 			className="App"
 			style={{
-				backgroundImage: "url('/assets/images/background.jpg')",
+				backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/background.jpg)`,
 				backgroundSize: "cover",
 				backgroundPosition: "center",
 				backgroundRepeat: "no-repeat",
-				minHeight: "100vh", // covers at least the full viewport height
+				minHeight: "100vh",
 				width: "100%",
 				display: "flex",
 				flexDirection: "column",

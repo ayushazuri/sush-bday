@@ -59,7 +59,7 @@ function ProposalButtons() {
 						make beautiful memories together 💑
 					</p>
 					<img
-						src="/assets/images/image_us.jpeg"
+						src={`${process.env.PUBLIC_URL}/assets/images/image_us.jpeg`}
 						alt="us"
 						style={{
 							maxWidth: "50%",
