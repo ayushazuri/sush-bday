@@ -55,8 +55,9 @@ function ProposalButtons() {
 					</button>
 					<h2>💖 Yayyy!!! 💖</h2>
 					<p>
-						I knew you'd say yes! You're the most amazing person ever. Let's
-						make beautiful memories together 💑
+						I will never let you go my TishPie, I love you a lot. Without you,
+						life isn’t really living — it’s just surviving. Come back to me
+						ASAP💑
 					</p>
 					<img
 						src={`${process.env.PUBLIC_URL}/assets/images/image_us.jpeg`}
