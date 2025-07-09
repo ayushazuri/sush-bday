@@ -59,7 +59,8 @@ h1 {
 	letter-spacing: 2px;
 	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6);
 } */
-h1 {
+h1,
+h2 {
 	font-family: "Great Vibes", cursive;
 	font-size: 3.5rem;
 	color: #d63384;

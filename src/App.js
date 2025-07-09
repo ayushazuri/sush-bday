@@ -44,6 +44,7 @@ function App() {
 		>
 			<Toast ref={toast} position="bottom-left" className="mr-2" />
 			<h1>My CutiePie JPMC, will you be my girlfriend?????</h1>
+			<h2>Also Happy Birthday ❤️❤️❤️</h2>
 			<ProposalButtons />
 			<PhotoCarousel />
 			<MusicPlayer />
